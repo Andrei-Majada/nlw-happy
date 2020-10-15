@@ -19,6 +19,8 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
+
+    background: url('../../Images/landing.svg') no-repeat 80% center; 
 }
 
 #page-landing .content-wrapper main{
@@ -56,5 +58,16 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
 }
 
+.content-wrapper .enter-app:hover {
+    background: #96feff;
+}

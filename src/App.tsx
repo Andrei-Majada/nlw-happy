@@ -1,5 +1,6 @@
 //dependences
 import React from 'react';
+import { FiArrowRight } from 'react-icons/fi';
 //local files
 import "./Styles/global.css";
 import "./Styles/Pages/landing.css";
@@ -23,7 +24,7 @@ function App() {
         </div>
 
         <a href="" className="enter-app">
-          >
+          <FiArrowRight />
         </a>
       </div>
     </div>
